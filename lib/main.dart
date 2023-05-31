@@ -57,6 +57,11 @@ class _LocationAppState extends State<LocationApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
+              'Your coordinates are:',
+              style: TextStyle(fontSize: 20),
+            ),
+            SizedBox(height: 30),
+              Text(
                 'Latitude: $_latitude',
                 style: TextStyle(fontSize: 20),
               ),
