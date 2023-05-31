@@ -49,6 +49,7 @@ class _LocationAppState extends State<LocationApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.red,
           title: Text('Location App'),
         ),
         body: Center(
